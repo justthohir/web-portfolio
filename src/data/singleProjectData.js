@@ -1,7 +1,4 @@
 // Import images
-import RestAPI from "../images/rest-api.jpg";
-import WebLittleLemon from "../images/web-little-lemon.png";
-
 export const singleProjectData = {
   ProjectHeader: {
     title: "Automated Deployment of Web Portfolio with ReactJS & Docker",
@@ -48,17 +45,6 @@ export const singleProjectData = {
   },
   RelatedProject: {
     title: "Other Projects",
-    Projects: [
-      {
-        id: 2,
-        title: "Auto Deploy NextJS with Docker",
-        img: RestAPI,
-      },
-      {
-        id: 3,
-        title: "Auto Deploy ReactJS with Docker",
-        img: WebLittleLemon,
-      },
-    ],
+    Projects: [],
   },
 };

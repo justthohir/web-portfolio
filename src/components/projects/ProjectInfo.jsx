@@ -22,6 +22,8 @@ const ProjectInfo = () => {
                   <span>{info.title}: </span>
                   <a
                     href={info.details}
+                    target="_blank"
+                    rel="noreferrer"
                     className={
                       info.title === "Website" || info.title === "Repository"
                         ? "hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"

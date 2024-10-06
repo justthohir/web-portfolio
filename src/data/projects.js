@@ -1,5 +1,5 @@
 // Import images
-import WebPortfolio from "../images/web-portfolio.png";
+import WebPortfolio from "../images/web-portfolio.jpg";
 
 export const projectsData = [
   {
